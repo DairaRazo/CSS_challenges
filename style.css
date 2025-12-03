@@ -1,0 +1,200 @@
+/* COlORFUL BUTTON */
+#colorful_button_area{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.colorful_button_title{
+    text-align: center;
+    margin-top: 40px;
+    font-size: 2em;
+}
+
+.button_c{
+    background-color: rgba(66, 228, 115, 0.911);
+    color: black;
+    padding: 40px;
+    margin: 20px;
+    width: 100px;
+    font-size: 2em;
+    border-radius: 50px;
+    text-align: center;
+
+}
+
+.button_c:hover{
+    animation: buttonTransition 5s ease infinite;
+    transform: scale(1.2);
+    cursor: pointer;
+}
+
+@keyframes buttonTransition{
+    0%{
+        background-color: rgb(95, 235, 188);
+    }
+
+    30%{
+        background-color: rgb(41, 223, 177);
+    }
+
+    60%{
+        background-color: rgb(228, 124, 238);
+    }
+
+    90%{
+        background-color: rgb(228, 165, 202);
+    }
+
+    100%{
+        background-color: rgb(100, 222, 231);
+    }
+}
+
+/* SEARCH BAR */
+
+.search_bar_title{
+    font-size: 2em;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.search_bar{
+    width: 300px;
+    padding: 20px;
+    border: solid 1px #535353;
+    border-radius: 30px;
+    font-size: 1.3em;
+}
+
+#search_bar_area{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.search_bar:hover{
+    width: 30%;
+    color: white;
+}
+
+/* CODEPEN TILE */
+
+#tile1{
+    display: flex;
+    justify-content: center;
+}
+
+.codepen_title{
+    font-size: 2em;
+    text-align: center;
+    margin-top: 60px;
+
+}
+
+#codepen_tile_area{
+    background-color: #414040;
+    padding: 25px;
+    width: 23em;
+    margin: 20px;
+}
+
+#codepen_tile_area:hover{
+    cursor: pointer;
+}
+
+.codepen_img{
+    width: auto;
+    height: 30em;
+}
+
+.cp_profile_pic{
+    width: 7em;
+    height: auto;
+    border-radius: 100%;
+    margin-top: 30px;
+    margin-left: 15px;
+}
+
+
+
+.description{
+    font-size: 1.3em;
+    margin: 35px;
+    color: white;
+}
+
+.user_name{
+    font-size: 1.2em;
+    text-align: left;
+    font-family: 'Segoe UI',Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(201, 201, 201);
+}
+
+#middle_part{
+    display: flex;
+    flex-direction: row;
+}
+
+.extra{
+    width: 5em;
+
+}
+
+
+.toolbar{
+    display: flex;
+    justify-content: center;
+    margin: 3px;
+}
+
+/* LOADING ANIMATION 1 */
+
+.loading1_title{
+    text-align: center;
+    font-size: 2em;
+    margin-top: 50px;
+}
+
+.circle{
+    width: 2em;
+    height: 2em;
+    background-color: #414040;
+    margin: 1em;
+    animation: loading1 2s infinite;
+    
+}
+
+#animation_load1{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+
+@keyframes loading1 {
+
+    0%{
+        background-color: #b6afaf;
+        transform: rotate(-90deg);
+    }
+
+    30%{
+        background-color: #9b8b8b;
+        transform: rotate(-90deg);
+    }
+
+    60%{
+        background-color: #777676;
+        transform: rotate(-90deg);
+    }
+
+    90%{
+        background-color: #aaaaa2;
+        transform: rotate(-90deg);
+    }
+    
+}
+
+
+
